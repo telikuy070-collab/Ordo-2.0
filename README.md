@@ -77,66 +77,6 @@
 
 ---
 
-## 🛠️ Технологический стек
-
-- **Frontend:** PWA (Progressive Web App)
-- **Backend:** [Укажите используемый стек]
-- **Database:** [Укажите БД]
-- **Authentication:** JWT / OAuth 2.0
-- **Architecture:** Clean Architecture Pattern
-
----
-
-## 🚀 Начало работы
-
-### Требования
-- Node.js v18+
-- Docker (опционально)
-- [Добавить другие зависимости]
-
-### Установка
-
-```bash
-# Клонируйте репозиторий
-git clone https://github.com/telikuy070-collab/Ordo-2.0.git
-cd Ordo-2.0
-
-# Установите зависимости
-npm install
-
-# Конфигурируйте переменные окружения
-cp .env.example .env
-
-# Запустите приложение
-npm run dev
-```
-
-### Запуск в Docker
-
-```bash
-docker-compose up -d
-```
-
----
-
-## 📦 Структура проекта
-
-```
-Ordo-2.0/
-├── src/
-│   ├── domain/              # Бизнес-логика
-│   ├── application/         # Use Cases
-│   ├── infrastructure/      # Сервисы и адаптеры
-│   ├── presentation/        # UI компоненты
-│   └── shared/              # Общие утилиты
-├── tests/                   # Тесты
-├── docs/                    # Документация
-├── docker-compose.yml
-├── .env.example
-└── README.md
-```
-
----
 
 ## 🔐 Безопасность
 
@@ -157,22 +97,6 @@ Ordo 2.0 позволяет одной инстанции системы обс�
 - 💰 Экономия на инфраструктуре
 - 🔄 Одно место для обновлений и поддержки
 
----
-
-## 🧪 Тестирование
-
-```bash
-# Запуск всех тестов
-npm run test
-
-# Запуск с покрытием
-npm run test:coverage
-
-# Запуск E2E тестов
-npm run test:e2e
-```
-
----
 
 ## 🤝 Внесение вклада
 
